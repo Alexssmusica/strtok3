@@ -4,7 +4,7 @@ import * as strtok3 from '../lib/index.js';
 import Path from 'node:path';
 import * as fs from '../lib/FsPromise.js';
 import { FileTokenizer } from '../lib/FileTokenizer.js';
-import { EndOfStreamError } from 'peek-readable';
+import { EndOfStreamError } from '@alexssmusica/peek-readable';
 import { PassThrough } from 'node:stream';
 import mocha from 'mocha';
 import { Buffer } from 'node:buffer';

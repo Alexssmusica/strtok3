@@ -80,6 +80,7 @@
     "@typescript-eslint/no-empty-interface": "error",
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-misused-new": "error",
+    "import/no-extraneous-dependencies": "off",
     "@typescript-eslint/no-namespace": "error",
     "@typescript-eslint/no-parameter-properties": "off",
     "@typescript-eslint/no-shadow": [
@@ -137,12 +138,6 @@
       "undefined"
     ],
     "id-match": "error",
-    "import/no-extraneous-dependencies": [
-      "error",
-      {
-        "devDependencies": false
-      }
-    ],
     "import/no-internal-modules": "off",
     "import/order": "off",
     "import/no-unresolved": ["error", {"caseSensitiveStrict": true }],

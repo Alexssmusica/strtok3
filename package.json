@@ -1,6 +1,6 @@
 {
-  "name": "strtok3",
-  "version": "7.0.0",
+  "name": "@alexssmusica/strtok3",
+  "version": "7.0.1",
   "description": "A promise based streaming tokenizer",
   "author": {
     "name": "Borewit",
@@ -33,7 +33,6 @@
     "url": "https://github.com/Borewit/strtok3.git"
   },
   "license": "MIT",
-  "type": "module",
   "exports": {
     ".": {
       "node": "./lib/index.js",
@@ -74,8 +73,8 @@
     "typescript": "^4.8.4"
   },
   "dependencies": {
-    "@tokenizer/token": "^0.3.0",
-    "peek-readable": "^5.0.0"
+    "@alexssmusica/peek-readable": "^5.0.0",
+    "@tokenizer/token": "^0.3.0"
   },
   "keywords": [
     "tokenizer",
